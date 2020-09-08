@@ -1,6 +1,6 @@
 Using NodeJS create an application that will monitor a set of specific folders for new files, build an API link based on the folder location the file is in, post the file, and perform an one of two actions upon completion.
 
-# Getting Started
+# Acquire the Source
 * Visit our [GitHub Repository](https://github.com/Lab-Logistic-Services/CoderByte-Data-Sweep-Assessment) and clone the repository.
 
 # Requirements
