@@ -3,6 +3,24 @@ Using NodeJS create an application that will monitor a set of specific folders f
 # Acquire the Source
 * Visit our [GitHub Repository](https://github.com/Lab-Logistic-Services/CoderByte-Data-Sweep-Assessment) and clone the repository.
 
+# Folder Structure
+The following is the folder structure required for this application and is included in this repository.
+* root_directory
+  * application
+  * log_files
+  * 1000000
+    * 1002
+    * archive
+    * exceptions
+  * 1000001
+    * 1007
+    * archive
+    * exceptions
+  * 1000002
+    * 1014
+    * archive
+    * exceptions  
+
 # Requirements
 * The system should utilize .env files for all custom configuration settings
 * Only monitor the first sub directory for new files.
