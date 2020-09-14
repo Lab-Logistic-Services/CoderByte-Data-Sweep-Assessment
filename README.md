@@ -8,18 +8,19 @@ The following is the folder structure required for this application and is inclu
 * root_directory
   * application
   * log_files
-  * 1000000
-    * 1002
-    * archive
-    * exceptions
-  * 1000001
-    * 1007
-    * archive
-    * exceptions
-  * 1000002
-    * 1014
-    * archive
-    * exceptions  
+  * file_watching
+    * 1000000
+      * 1002
+      * archive
+      * exceptions
+    * 1000001
+      * 1007
+      * archive
+      * exceptions
+    * 1000002
+      * 1014
+      * archive
+      * exceptions  
 
 # Requirements
 * The system should utilize .env files for all custom configuration settings
