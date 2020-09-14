@@ -37,7 +37,16 @@ The following is the folder structure required for this application and is inclu
 * If a status other than 200 is received:
   * The system should move the file into a holding directory
   * The system should present a notification window, showing the error, that does not disappear and gives the user an option to submit a bug.
-* The system should log the following events in a log file, and rotate the log file based on settings in the .env file
+* The system should log the following events in a log file.
+  * File detections
+  * File Actions <Post & Response, Archive, Exceptions>
+  * All Errors
+* The log files should be rotated based on options settable from the .env file
+  * Hourly
+  * Daily
+  * Weekly
+  * Monthly
+  * Size limit
 
 # How to submit
 Please upload the code for this project to GitHub, and post a link to your repository below.
