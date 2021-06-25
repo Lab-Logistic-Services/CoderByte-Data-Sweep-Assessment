@@ -29,7 +29,7 @@ The following is the folder structure required for this application and is inclu
 * The system should be able to wait until the file is no longer open, or being written to before posting.
 * Should wait until file is no longer open before post
   * https://test-api.domain.net/<parent _directory>/<sub_directory>/results
-  *	ex: https://localhost:3000/1000001/1007/results
+  *	ex: https://test-api.domain.net/1000001/1007/results
 * Check file checksum and send with each post
 * If status 200 is received:
   * The system should archive the file into a dynamically created archive folder by year and month
